@@ -46,7 +46,7 @@ end
 
 class ActiveResource::ConnectionError < StandardError
   def to_s
-    "Error #{response.code}: #{JSON.parse(response.body)["message"]}"
+    "Error #{response.code}: #{JSON.parse(response.body)["error"]["message"]}"
   end
 end
 
