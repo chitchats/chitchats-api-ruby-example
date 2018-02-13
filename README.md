@@ -1,8 +1,6 @@
 Chit Chats API Ruby Example
 ===========================
 
-**API IS IN BETA** Contact support for access.
-
 This is an example of using the [Chit Chats](https://chitchats.com) API with Ruby and a lightweight [Active Resource](https://github.com/rails/activeresource) wrapper.
 
 For more information please read the [Chit Chats API documentation](https://github.com/chitchats/chitchats-api-doc).
